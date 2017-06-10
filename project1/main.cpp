@@ -29,17 +29,19 @@ int main()
             << "\nn squared == " << n*n
             << "\nhalf of n == " << n/2
             << "\nsquare root of n == " << sqrt(n)
-            << "\n";  // another name for newline (“end of line”) in output
+            << "\n";  // another name for newline ("end of line") in output
 
     string word1="alpha";
     word1 = word1 + "beta!";
 	cout << "word1=" << word1 << ".\n";
 
-	string previous = " ";       // previous word; initialized to “not a word”
+	string previous = "a";       // previous word; initialized to "not a word"
     string current;                             // current word
+    int number_of_words=0;
     while (cin>>current) {// read a stream of words
+        ++number_of_words;
         if (previous == current)    // check if the word is the same as last
-            cout << "repeated word: " << current << "\n";
+            cout <<  "Word number " << number_of_words << " has been repeated. The repeated word is: " << current << "\n";
             previous = current;
         }
 
