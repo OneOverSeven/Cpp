@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1446654553 source:c:\users\green\documents\c++\simunum1\main.cpp
+	<iostream>
+	<new>
+	<math.h>
+	<iostream>
+	<fstream>
+

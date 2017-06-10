@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1497050113 source:c:\users\green\documents\c++\project1\main.cpp
+	"std_lib_facilities.h"
+
+1497041775 c:\users\green\documents\c++\project1\std_lib_facilities.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<string>
+	<list>
+	<forward_list>
+	<vector>
+	<unordered_map>
+	<algorithm>
+	<array>
+	<regex>
+	<random>
+	<stdexcept>
+
