@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1497143975 source:c:\users\dark\documents\github\cpp\conversion\main.cpp
+	"../std_lib_facilities.h"
+
+1497122307 c:\users\dark\documents\github\cpp\std_lib_facilities.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<string>
+	<list>
+	<forward_list>
+	<vector>
+	<unordered_map>
+	<algorithm>
+	<array>
+	<regex>
+	<random>
+	<stdexcept>
+
